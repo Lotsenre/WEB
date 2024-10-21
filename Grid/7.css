@@ -1,0 +1,36 @@
+.grid-container{
+    max-width: 1200px auto;
+    margin: 30px auto;
+    display: grid;
+    grid-template-areas:"post-1 post-1 post-2"
+                        "post-1 post-1 post-3"
+                        "post-6 post-5 post-4";
+    grid-template-rows: repeat(3, 200px);
+    grid-template-columns: repeat(3, 1fr);
+}
+.post-1{
+    display: flex;
+    background: #CD5C5C;
+    border: solid 10px #efddd0;
+    grid-area: post-1;
+}
+.post-2{
+    background: #ff4500;
+    grid-area: post-2;
+}
+.post-3{
+    background: #7868ee;
+    grid-area: post-3;
+}
+.post-4{
+    background: #CD5C5C;
+    grid-area: post-4;
+}
+.post-5{
+    background: #6495ED;
+    grid-area: post-5;
+}
+.post-6{
+    background: #CD5C5C;
+    grid-area: post-6;
+}
