@@ -1,0 +1,544 @@
+body{
+    margin: 0; 
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*!header style*/
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:#FCE6D9;
+    height: 140px;
+}
+.logo{
+    border-radius: 42px;
+    border: 2px solid #324b4e;
+    background-color: #fdd49c;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    left:10px;
+}
+.info{
+    border-radius: 22px;
+    display:grid;
+    align-items: center;
+    border: 2px solid #324b4e;
+    background-color: #FDD49C;
+    position: relative;
+    left: 400px;
+    height: 100px;
+}
+.polzovateli{
+    border-radius: 22px;
+    display:grid;
+    align-items: center;
+    border: 2px solid #324b4e;
+    background-color: #FDD49C;
+    position: relative;
+    left: 550px;
+    height: 100px;
+}
+.hours{
+    display: flex;
+    align-items:center;
+    margin:10px;
+    position: relative;
+    top: -10px;
+}
+
+.phone{
+    display: flex;
+    align-items:center;
+    margin: 10px;
+}
+.lk{
+    display: flex;
+    align-items:center;
+    margin:5px;
+}
+.mess{
+    display: flex;
+    align-items:center;
+    margin:5px;
+    position: relative;
+    top: -10px;
+}
+p{
+    margin: 5px;
+}
+a{
+    display: flex;
+    align-items:center;
+    margin:5px;
+    text-decoration:none;
+    color:#000000;
+}
+/*!footer style*/
+.logo2{
+    border-radius: 42px;
+    border: 2px solid #324b4e;
+    background-color: #fdd49c;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    left:195px;
+}
+.info2{
+    border-radius: 22px;
+    display:grid;
+    align-items: center;
+    border: 2px solid #324b4e;
+    background-color: #FDD49C;
+    position: relative;
+    left: 90px;
+    height: 100px;
+}
+.hours2{
+    display: flex;
+    align-items:center;
+    margin:10px;
+    position: relative;
+    top: -10px;
+}
+.phone2{
+    display: flex;
+    align-items:center;
+    margin: 10px;
+}
+.social{
+    border-radius: 22px;
+    display:grid;
+    align-items: center;
+    border: 2px solid #324b4e;
+    background-color: #FDD49C;
+    position: relative;
+    left: 20px;
+    height: 100px;
+}
+.tg{
+    display: flex;
+    align-items:center;
+    margin: 5px;
+}
+.vk{
+    display: flex;
+    align-items:center;
+    margin: 5px;
+}
+footer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:#FCE6D9;
+    position: relative;
+    height: 140px;
+    top:220px;
+}
+.URinfo{
+    border-radius: 42px;
+    border: 2px solid #324b4e;
+    background-color: #fdd49c;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    left:150px;
+    height: 100px;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.urinfo{
+    margin: 0px;
+    padding: 0px;
+    width: 370px;
+}
+.urinfo_submenu1{
+    display: flex;
+    align-items:center;
+    margin: 5px;
+}
+.urinfo_submenu2{
+    display: flex;
+    align-items:center;
+    margin: 5px;
+}
+.company{
+    position: relative;
+    top: 40px;
+    left: 3px;
+}
+.politika_konfi{
+    position: relative;
+    bottom: 40px;
+}
+.vacancy{
+    position: relative;
+    left: 3px;
+    bottom: 40px;
+}
+.news{
+    position: relative;
+    top: 40px;
+}
+/* button up */
+.scroll_top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  .scroll_top.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .scroll_top:hover {
+    background-color: #0056b3;
+  }
+/*!content style*/
+.title_content{
+    margin:10px;
+    padding: 10px;
+    position: relative;
+}
+main{
+}
+/*!burger-menu style*/
+.burger-menu{
+    border-radius: 22px;
+    border: 2px solid #324b4e;
+    background-color: #fdd49c;
+    margin: 10px;
+    padding: 10px;
+    position:fixed;
+    width: 250px;
+    left:15px;
+    top: 290px;
+    font-size: 18px;
+}
+.burger-menu_content{
+    display: grid;
+    grid-template-rows: 0fr;
+    transition-duration: 0,3s;
+}
+.burger-menu_content-body{
+    overflow: hidden;
+}
+.burger-menu_details[open] + .burger-menu_content{
+    grid-template-rows: 1fr;
+}
+.cakes:hover{
+    color:beige;
+    cursor: pointer;
+}
+.vafli:hover{
+    color:beige;
+    cursor: pointer;
+}
+.krua:hover{
+    color:beige;
+    cursor: pointer;
+}
+.pigori:hover{
+    color:beige;
+    cursor: pointer;
+}
+.tg:hover{
+    color:beige;
+    cursor: pointer;
+}
+.vk:hover{
+    color:beige;
+    cursor: pointer;
+}
+.burger-menu:hover{
+    cursor: pointer;
+}
+/*!card-product style*/
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position:relative;
+    left: 325px;
+    top: 20px;
+    width: 958px;
+}
+.product-card1{
+    border-radius: 22px;
+    border: 2px solid #324b4e;    
+    background-color: #fdd49c;
+}
+.product-card1_title{
+    margin: 10px;
+    padding: 10px;
+}
+.product-card1_price{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    bottom: 3px;
+}
+.product-card1_image{
+    background-color: white;
+    border-radius:22px 22px 22px 22px;
+}
+.product-card2{
+    border-radius: 22px;
+    border: 2px solid #324b4e;    
+    background-color: #fdd49c;
+    position: relative;
+    left: 25px;
+}
+.product-card2_title{
+    margin: 10px;
+    padding: 10px;
+}
+.product-card2_price{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    bottom: 3px;
+}
+.product-card2_image{
+    background-color: white;
+    border-radius:22px 22px 22px 22px;
+}
+.product-card3{
+    border-radius: 22px;
+    border: 2px solid #324b4e;    
+    background-color: #fdd49c;
+    position: relative;
+    left: 50px;
+}
+.product-card3_title{
+    margin: 10px;
+    padding: 10px;
+}
+.product-card3_price{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    bottom: 3px;
+}
+.product-card3_image{
+    background-color: white;
+    border-radius:22px 22px 22px 22px;
+}
+.product-card4{
+    border-radius: 22px;
+    border: 2px solid #324b4e;    
+    background-color: #fdd49c;
+    position: relative;
+    top:25px;
+}
+.product-card4_title{
+    margin: 10px;
+    padding: 10px;
+}
+.product-card4_price{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    bottom: 3px;
+}
+.product-card4_image{
+    background-color: white;
+    border-radius:22px 22px 22px 22px;
+}
+.product-card5{
+    border-radius: 22px;
+    border: 2px solid #324b4e;    
+    background-color: #fdd49c;
+    position: relative;
+    left: 25px;
+    top:25px;
+}
+.product-card5_title{
+    margin: 10px;
+    padding: 10px;
+}
+.product-card5_price{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    bottom: 3px;
+}
+.product-card5_image{
+    background-color: white;
+    border-radius:22px 22px 22px 22px;
+}
+.product-card6{
+    border-radius: 22px;
+    border: 2px solid #324b4e;    
+    background-color: #fdd49c;
+    position: relative;
+    top:25px;
+    left:50px;
+}
+.product-card6_title{
+    margin: 10px;
+    padding: 10px;
+}
+.product-card6_price{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    bottom: 3px;
+}
+.product-card6_image{
+    background-color: white;
+    border-radius:22px 22px 22px 22px;
+}
+.product-card7{
+    border-radius: 22px;
+    border: 2px solid #324b4e;    
+    background-color: #fdd49c;
+    position: relative;
+    top:50px;
+}
+.product-card7_title{
+    margin: 10px;
+    padding: 10px;
+}
+.product-card7_price{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    bottom: 3px;
+}
+.product-card7_image{
+    background-color: white;
+    border-radius:22px 22px 22px 22px;
+}
+.product-card8{
+    border-radius: 22px;
+    border: 2px solid #324b4e;    
+    background-color: #fdd49c;
+    position: relative;
+    top:50px;
+    left:25px;
+}
+.product-card8_title{
+    margin: 10px;
+    padding: 10px;
+}
+.product-card8_price{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    bottom: 3px;
+}
+.product-card8_image{
+    background-color: white;
+    border-radius:22px 22px 22px 22px;
+}
+.product-card9{
+    border-radius: 22px;
+    border: 2px solid #324b4e;    
+    background-color: #fdd49c;
+    position: relative;
+    top:50px;
+    left:50px;
+    overflow: hidden;
+}
+.product-card9_title{
+    margin: 10px;
+    padding: 10px;
+}
+.product-card9_price{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    bottom: 3px;
+}
+.product-card9_image{
+    background-color: white;
+    border-radius:22px 22px 22px 22px;
+}
+.product-card10{
+    border-radius: 22px;
+    border: 2px solid #324b4e;    
+    background-color: #fdd49c;
+    position: relative;
+    top:75px;
+}
+.product-card10_title{
+    margin: 10px;
+    padding: 10px;
+}
+.product-card10_price{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    bottom: 3px;
+}
+.product-card10_image{
+    background-color: white;
+    border-radius:22px 22px 22px 22px;
+}
+.product-card11{
+    border-radius: 22px;
+    border: 2px solid #324b4e;    
+    background-color: #fdd49c;
+    position: relative;
+    top:75px;
+    left:25px;
+}
+.product-card11_title{
+    margin: 10px;
+    padding: 10px;
+}
+.product-card11_price{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    bottom: 3px;
+}
+.product-card11_image{
+    background-color: white;
+    border-radius:22px 22px 22px 22px;
+}
+.product-card12{
+    border-radius: 22px;
+    border: 2px solid #324b4e;    
+    background-color: #fdd49c;
+    position: relative;
+    top:75px;
+    left:50px;
+}
+.product-card12_title{
+    margin: 10px;
+    padding: 10px;
+}
+.product-card12_price{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    bottom: 3px;
+}
+.product-card12_image{
+    background-color: white;
+    border-radius:22px 22px 22px 22px;
+}

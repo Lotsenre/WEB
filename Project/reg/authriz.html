@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang=ru>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./../css/auth.css">
+        <title></title>
+</head>
+<body>
+    <div class="content">
+        <div class="logo">
+            <a href="./../index.php">
+            <img src="./../photo/logo.svg" width="260px" height="100px">
+            </a>
+        </div>
+        <div class="content_body">
+            <center>
+            <h1 class="content_title">Авторизация</h1>
+            </center>
+                <form action="./../scripts/auth.php" method="post">
+                    <input type="text" class="form_reg" name="login" id="login" placeholder="Введите логин (от 5 до 20 символов)"><br>
+                    <input type="password" class="form_reg" name="pass" id="pass" placeholder="Введите пароль (не менее 6 символов)"><br>
+                    <button class="btn_success" type="submit">Войти</button>
+                    <a href="reg.html" class="creater_account"><p>Создать аккаунт</p></a>
+                </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,309 @@
+body{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*!header style*/
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:#FCE6D9;
+    height: 140px;
+}
+.logo{
+    border-radius: 42px;
+    border: 2px solid #324b4e;
+    background-color: #fdd49c;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    left:10px;
+}
+
+  .info{
+    border-radius: 22px;
+    display:grid;
+    align-items: center;
+    border: 2px solid #324b4e;
+    background-color: #FDD49C;
+    position: relative;
+    left: 400px;
+    height: 100px;
+}
+.polzovateli{
+    border-radius: 22px;
+    display:grid;
+    align-items: center;
+    border: 2px solid #324b4e;
+    background-color: #FDD49C;
+    position: relative;
+    left: 550px;
+    height: 100px;
+}
+.hours{
+    display: flex;
+    align-items:center;
+    margin:10px;
+    position: relative;
+    top: -10px;
+}
+.phone{
+    display: flex;
+    align-items:center;
+    margin: 10px;
+}
+.lk{
+    display: flex;
+    align-items:center;
+    margin:5px;
+}
+.mess{
+    display: flex;
+    align-items:center;
+    margin:5px;
+    position: relative;
+    top: -10px;
+}
+p{
+    margin: 5px;
+}
+a{
+    display: flex;
+    align-items:center;
+    margin:5px;
+    text-decoration:none;
+    color:#000000;
+}
+/*!footer style*/
+.logo2{
+    border-radius: 42px;
+    border: 2px solid #324b4e;
+    background-color: #fdd49c;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+        left:185px;
+}
+.info2{
+    border-radius: 22px;
+    display:grid;
+    align-items: center;
+    border: 2px solid #324b4e;
+    background-color: #FDD49C;
+    position: relative;
+    left: 90px;
+    height: 100px;
+}
+.hours2{
+    display: flex;
+    align-items:center;
+    margin:10px;
+    position: relative;
+    top: -10px;
+}
+.phone2{
+    display: flex;
+    align-items:center;
+    margin: 10px;
+}
+.social{
+    border-radius: 22px;
+    display:grid;
+    align-items: center;
+    border: 2px solid #324b4e;
+    background-color: #FDD49C;
+    position: relative;
+    left: 20px;
+    height: 100px;
+}
+.tg{
+    display: flex;
+    align-items:center;
+    margin: 5px;
+}
+.vk{
+    display: flex;
+    align-items:center;
+    margin: 5px;
+}
+footer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:#FCE6D9;
+    height: 140px;
+    top:220px
+}
+.URinfo{
+    border-radius: 42px;
+    border: 2px solid #324b4e;
+    background-color: #fdd49c;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    left:150px;
+    height: 80px;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.urinfo{
+    margin: 0px;
+    padding: 0px;
+}
+.urinfo_submenu1{
+    display: flex;
+    align-items:center;
+    margin: 5px;
+}
+.urinfo_submenu2{
+    display: flex;
+    align-items:center;
+    margin: 5px;
+}
+.tg:hover{
+    color:beige;
+    cursor: pointer;
+}
+.vk:hover{
+    color:beige;
+    cursor: pointer;
+}
+/*!card product-style*/
+.card_product{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.card_image{
+    border: 2px solid #000000;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    left: 100px;
+}
+.image{
+    width: 370px;
+    height: 270px;
+}
+.card_info{
+    position: relative;
+    left: 150px;
+    border-radius: 22px;
+    border: 2px solid #324b4e;
+    background-color: #fdd49c;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+.card_price{
+    position: relative;
+    top: 10px;
+    left: 18px;
+}
+.card_buy{
+    position: relative;
+    left: 120px;
+    border-radius: 22px;
+    border: 0px solid #324b4e;
+    background-color: #ffffff;
+    width: 162px;
+    top: 60px;
+    margin: 10px;
+    border: 2px solid gray;
+    border-radius: 22px;
+}
+.card_opisanie_body{
+    position:relative;
+    left:18px;
+}
+.buy:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    header, footer {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .logo {
+        left: 0;
+        margin: 10px 0;
+    }
+
+    .info, .polzovateli {
+        width: 100%;
+        left: 0;
+        margin: 10px 0;
+        height: auto;
+    }
+
+    .info {
+        margin-left: 0;
+    }
+
+    .polzovateli {
+        margin-left: 0;
+    }
+
+    .card_product {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        justify-self: center;
+    }
+
+    .card_image {
+        left: 0;
+        margin: 10px;
+        width: 100%;
+    }
+
+    .card_info {
+        left: 0;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .card_price, .card_buy {
+        left: 0;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .URinfo {
+        left: 0;
+        margin-top: 20px;
+    }
+
+    .logo2, .info2, .social {
+        left: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .card_image .image {
+        width: 100%;
+        height: auto;
+    }
+}

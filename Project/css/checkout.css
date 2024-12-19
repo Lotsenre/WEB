@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FCE6D9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    position: relative;
+    top: 230px;
+    z-index: 2;
+
+}
+.logo{
+    border-radius: 42px;
+    border: 2px solid #324b4e;
+    background-color: #fdd49c;
+    position: relative;
+    width: 270px;
+    bottom: 90px;
+    right: 430px;
+    margin: 10px;
+    padding: 10px;
+}
+.content{
+    border: 2px solid black;
+    width: 1000px;
+    height: 600px;
+    background-color: white;
+    position: relative;
+    margin: 90px;
+    padding: 90px;
+    bottom: 50px;
+    
+}
+.content_body{
+    display: grid;
+    justify-content:center;
+    bottom: 30px;
+    position: relative;
+}
+.form_cheсkout{
+    margin: 20px;
+    position: relative;
+    background-color: white;
+    border: 2px solid gray;
+    width: 300px;
+    border-radius: 15px;
+    height: 40px;
+    display: grid;
+    align-items: center;
+}
+button{
+    left: 60px;
+    margin: 20px;
+    position: relative;
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #fdd49c;
+    bottom: 10px;
+    border: 2px solid gray;
+    border-radius: 15px;
+
+}
+#adress,#total_price{
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 7px;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .content {
+
+    }
+
+    .logo {
+        width: 200px;  /* Уменьшаем размер логотипа */
+        top: 10px;  /* Позиционирование логотипа с учетом маленьких экранов */
+        right: 10px;
+    }
+
+    button {
+        width: 80%;  /* Кнопка будет растягиваться на всю ширину */
+    }
+
+    #adress,#total_price {
+        width: 100%;  /* Поля ввода будут растягиваться на всю ширину */
+        max-width: none;  /* Убираем ограничение ширины */
+    }
+}

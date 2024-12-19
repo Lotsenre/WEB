@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FCE6D9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content{
+    border: 2px solid black;
+    width: 1000px;
+    height: 600px;
+    background-color: white;
+    position: relative;
+    margin: 90px;
+    padding: 90px;
+    bottom: 50px;
+    
+}
+.logo{
+    border-radius: 42px;
+    border: 2px solid #324b4e;
+    background-color: #fdd49c;
+    position: relative;
+    width: 270px;
+    bottom: 90px;
+    right: 90px;
+    margin: 10px;
+    padding: 10px;
+}
+.content_body{
+    display: grid;
+    justify-content:center;
+    bottom: 130px;
+    position: relative;
+}
+.form_reg{
+    margin: 20px;
+    position: relative;
+}
+.content_title{
+    display: grid;
+    justify-content: center;
+    position: relative;
+}
+button{
+    left: 270px;
+    margin: 20px;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #fdd49c;
+    bottom: -20px;
+    border: 2px solid gray;
+    border-radius: 15px;
+
+}
+#name,#pass,#login{
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 7px;
+}
+.creater_account{
+    position: relative;
+    left: 20px;
+    bottom:90px;
+    color: black;
+    text-decoration: none;
+}
+.creater_account:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .content {
+
+    }
+
+    .logo {
+        width: 200px;  /* Уменьшаем размер логотипа */
+        top: 10px;  /* Позиционирование логотипа с учетом маленьких экранов */
+        right: 10px;
+    }
+
+    button {
+        width: 80%;  /* Кнопка будет растягиваться на всю ширину */
+    }
+
+    #name, #pass, #login {
+        width: 100%;  /* Поля ввода будут растягиваться на всю ширину */
+        max-width: none;  /* Убираем ограничение ширины */
+    }
+}
