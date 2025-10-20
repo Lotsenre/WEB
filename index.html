@@ -118,6 +118,28 @@
             color: #777;
             font-size: 0.9rem;
         }
+        .subscribe-btn {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
+        .subscribe-btn:hover {
+            background-color: #c0392b;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        
+        .subscribe-btn:active {
+            transform: translateY(0);
+        }
         
         @media (max-width: 768px) {
             .container {
@@ -157,6 +179,7 @@
                     <span>Старый оскол, Россия</span>
                 </div>
             </div>
+            <button class="subscribe-btn">Подписаться на новости</button>
         </header>
         
         <section id="about">
